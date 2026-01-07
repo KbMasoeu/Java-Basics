@@ -32,3 +32,11 @@ public class SimpleCalculator {
             System.out.println("Error: Invalid operator!");
             validOperation = false;
         }
+
+        if (validOperation) {
+            System.out.println("Result: " + num1 + " " + operator + " " + num2 + " = " + result);
+        }
+        
+        sc.close();
+    }
+}
