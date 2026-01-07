@@ -14,8 +14,8 @@ public class SimpleCalculator {
         
         double result = 0;
         boolean validOperation = true;
-
-           if (operator == '+') {
+        
+        if (operator == '+') {
             result = num1 + num2;
         } else if (operator == '-') {
             result = num1 - num2;
@@ -32,7 +32,7 @@ public class SimpleCalculator {
             System.out.println("Error: Invalid operator!");
             validOperation = false;
         }
-
+        
         if (validOperation) {
             System.out.println("Result: " + num1 + " " + operator + " " + num2 + " = " + result);
         }
