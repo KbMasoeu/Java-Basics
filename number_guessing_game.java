@@ -49,3 +49,9 @@ public class NumberGuessingGame {
                 }
             }
         }
+        scanner.close();
+        
+        System.out.println();
+        System.out.println("Thanks for playing!");
+    }
+}
