@@ -90,4 +90,9 @@ public class TodoListApp {
         
         if (task.trim().isEmpty()) {
             System.out.println("Error: Task cannot be empty!");
-        } else 
+        } else {
+            tasks.add(task);
+            System.out.println("✓ Task added successfully!");
+            System.out.println("Total tasks: " + tasks.size());
+        }
+    }
