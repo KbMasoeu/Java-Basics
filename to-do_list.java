@@ -137,4 +137,3 @@ public class TodoListApp {
             scanner.nextLine(); 
             System.out.println("Error: Please enter a valid number!");
         }
-    }
