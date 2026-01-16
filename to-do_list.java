@@ -101,7 +101,7 @@ public class TodoListApp {
         
         if (tasks.isEmpty()) {
             System.out.println("No tasks yet! Your list is empty.");
-            System.out.println("Add a task to get started!");
+            System.out.println("Add a task to get started.");
         } else {
             System.out.println("You have " + tasks.size() + " task(s):");
             System.out.println();
@@ -118,3 +118,23 @@ public class TodoListApp {
             System.out.println("No tasks to remove! Your list is empty.");
             return;
         }
+    viewTasks();
+        System.out.println();
+        System.out.print("Enter task number to remove (1-" + tasks.size() + "): ");
+        
+        try {
+            int taskNumber = scanner.nextInt();
+            scanner.nextLine(); 
+            
+            if (taskNumber >= 1 && taskNumber <= tasks.size()) {
+                String removedTask = tasks.remove(taskNumber - 1);
+                System.out.println("Removed: \"" + removedTask + "\"");
+                System.out.println("Remaining tasks: " + tasks.size());
+            } else {
+                System.out.println("Error: Invalid task number!");
+            }
+        } catch (Exception e) {
+            scanner.nextLine(); 
+            System.out.println("Error: Please enter a valid number!");
+        }
+    }
