@@ -1,4 +1,4 @@
-+[import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class TodoListApp {
@@ -8,9 +8,15 @@ public class TodoListApp {
     public static void main(String[] args) {
         boolean running = true;
         
+<<<<<<< HEAD
         System.out.println("=========================================");
         System.out.println("    Welcome to your to-do list manager!");
         System.out.println("=========================================");
+=======
+        System.out.println("======================================");
+        System.out.println("    Welcome to your to-do list manager!");
+        System.out.println("======================================");
+>>>>>>> 789f278eb409bc04cc910e34ef2296dc928d3833
         System.out.println();
 
         while (running) {
