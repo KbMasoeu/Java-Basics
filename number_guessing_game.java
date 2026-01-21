@@ -33,9 +33,9 @@ public class NumberGuessingGame {
                 System.out.println("Too high! Try a lower number.");
                 System.out.println();
             } else {
-                System.out.println("================================");
+                System.out.println("==================================");
                 System.out.println("Congratulations!");
-                System.out.println("================================");
+                System.out.println("==================================");
                 System.out.println("The number was: " + targetNumber);
                 System.out.println("You guessed it in " + attempts + " attempts!");
                 System.out.println();
