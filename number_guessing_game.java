@@ -11,7 +11,7 @@ public class NumberGuessingGame {
          Scanner scanner = new Scanner(System.in);
         
         System.out.println("====================================");
-        System.out.println("  Welcome to Number Guessing Game!");
+        System.out.println("  Welcome the to Number Guessing Game!");
         System.out.println("====================================");
         System.out.println("I'm thinking of a number between 1 and 100.");
         System.out.println("Can you guess what it is?");
